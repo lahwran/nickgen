@@ -1,3 +1,4 @@
+# licensed under the MIT license, see LICENSE #!
 import nickgen
 import pytest
 
@@ -85,7 +86,3 @@ def test_print_encoded():
     print len(derp)
     print derp
     print
-
-
-if __name__ == "__main__":
-    pytest.main([__file__, "-s"])

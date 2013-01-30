@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# licensed under the MIT license, see LICENSE #!
 import random
 vowels,consonants='aeiou','bcdfghjklmnpqrstvwxyz'
 m,l,a,z='vcaz'
