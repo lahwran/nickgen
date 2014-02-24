@@ -10,8 +10,9 @@ if 0: print"<reply>%s: %s (%s, %s) -> %s"%gennicks(ioru)
 #!
 
 if __name__ == "__main__":
+    import sys
     user = None
-    string_ = raw_input("pattern: ")
+    string_ = sys.argv[-1] if len(sys.argv) > 1 else raw_input("pattern: ")
     user, string_, pattern, conv_pattern, results = gennicks(string_)
 
     print "%s (%s, %s) -> %s" % (string_, pattern, conv_pattern, results)
